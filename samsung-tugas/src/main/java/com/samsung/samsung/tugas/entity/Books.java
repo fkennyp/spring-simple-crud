@@ -32,12 +32,11 @@ public class Books {
 	public Books() {
 	}
 
-	public Books(String name, String author, Integer price, Timestamp created_at) {
+	public Books(String name, String author, Integer price) {
 		super();
 		this.name = name;
 		this.author = author;
 		this.price = price;
-		this.created_at = created_at;
 	}
 
 	public Long getId() {
